@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ivan Evtimov</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="scripts.js"></script
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse hidden" id="customnavbar">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+     <!-- <a class="navbar-brand" id="name" href="#">Ivan Evtimov</a> !-->
+     <div class="navbar-brand" style="text-align:left"> Ivan Evtimov </div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav" id="navlinks">
+        <li class="active" id="home-button"><a href="#">Home</a></li>
+        <li id="publications-button"><a href="#">Publications</a></li>
+        <li id="contact-button"><a href="#">Contact</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid text-center">  
+  <div class="row">  
+    <div class="col-md-3 text-left col-md-offset-1"> 
+              <img src="profile.jpg" class="img-circle" alt="Ivan Evtimov" width="200" height="200" style="padding:10px">
+    </div>
+    <div class="col-md-5 text-left align-middle"> 
+      <h1 class=>Ivan Evtimov <br>
+        <small > Ph.D. Student of Computer Science  </small>
+      </h1>
+        <p> </p>
+    </div>
+    <hr>
+  </div>
+  <div class="row" id="home">
+    <div class="col-md-8 text-left col-md-offset-1"> 
+      <h3> About me </h3>
+      <p> I am a Ph.D. student in the <a href="https://seclab.cs.washington.edu/">Computer Security and Privacy Lab</a> at the <a href="https://www.cs.washington.edu/">Paul G. Allen School of Computer Science</a> at the <a href="https://www.washington.edu/">University of Washington</a> where I am advised by <a href="https://homes.cs.washington.edu/~yoshi">Yoshi Kohno</a> and work closely with <a href="http://earlence.com/">Earlence Fernandes</a>. 
+      </p>
+      <p>
+      While I am fascinated by a variety of security and privacy problems, I focus on the intersection of security and machine learning. In particular, I seek to understand how and whether adversarial examples pose a real threat to deployed systems. My research so far has shown that popular computer vision deep learning models are vulnerable to physical attacks with stickers that do not require digital access to the system. Some of that work has been covered by <a href="https://www.wired.com/story/security-news-august-5-2017">Wired</a>, <a href="https://arstechnica.com/cars/2017/09/hacking-street-signs-with-stickers-could-confuse-self-driving-cars/?amp=1">Ars Technica</a>, <a href="http://spectrum.ieee.org/cars-that-think/transportation/sensors/slight-street-sign-modifications-can-fool-machine-learning-algorithms">IEEE Spectrum</a>, and others.
+      </p>
+      <p>
+      I also take an active interest in the broader implications of this new adversarial capability. As a member of the <a href="http://techpolicylab.org/">Tech Policy Lab</a>, I have co-authored <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3150530">a paper</a> on the legal and policy consequences of tricking an automated system without compromising any traditional security mechanisms.  
+       I also enjoy participating in law and policy discussions around technology beyond their connections to my work. That is why I attend the lab's weekly meetings with scholars from different academic departments where we talk about the latest news around tech policy. </p>
+
+
+      <p> Before becoming a graduate student at UW, I completed a Bachelor of Science degree in Computer Science with a minor in Mathematics at <a href="https://www.lafayette.edu/">Lafayette College</a> in the beautiful city of Easton, Pennsylvania. </p>
+    </div>
+  </div>
+
+  <div class="row" id="publications">
+    <div class="col-md-8 text-left col-md-offset-1"> 
+          <h3>Publications</h3>
+    </div>
+    <div class="col-md-8 text-left col-md-offset-1"> 
+        <!-- <h4>Computer Science Conferences</h4> --!>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <a href="https://arxiv.org/abs/1707.08945"><b>Robust Physical-World Attacks on Deep Learning Visual Classification</b></a><br/>
+                Kevin Eykholt, <b>Ivan Evtimov</b>, Earlence Fernandes, Bo Li, Amir Rahmati, Chaowei Xiao, Atul Prakash,Tadayoshi Kohno, Dawn Song <br/>
+				<b> Computer Vision and Pattern Recognition (CVPR 2018), Salt Lake City, UT (supersedes arXiv:1707.08945), </b> June 2018 <br/>
+				<i>Press: <a href="http://spectrum.ieee.org/cars-that-think/transportation/sensors/slight-street-sign-modifications-can-fool-machine-learning-algorithms">IEEE Spectrum</a>, <a href="https://sg.news.yahoo.com/researchers-demonstrate-limits-driverless-car-technology-151138885.html">Yahoo News</a>, <a href="https://www.wired.com/story/security-news-august-5-2017">Wired</a>, <a href="https://www.engadget.com/2017/08/06/altered-street-signs-confuse-self-driving-cars/">Engagdet</a>, <a href="http://www.telegraph.co.uk/technology/2017/08/07/graffiti-road-signs-could-trick-driverless-cars-driving-dangerously/">Telegraph</a>, <a href="http://blog.caranddriver.com/researchers-find-a-malicious-way-to-meddle-with-autonomous-cars/">Car and Driver</a>, <a href="https://www.cnet.com/roadshow/news/it-is-surprisingly-easy-to-bamboozle-a-self-driving-car/">CNET</a>, <a href="https://www.digitaltrends.com/cars/self-driving-cars-confuse-stickers-signs/">Digital Trends</a>, <a href="https://www.scmagazine.com/subtle-manipulation-of-street-signs-can-fool-self-driving-cars-researchers-report/article/680146/">SCMagazine</a>, <a href="https://www.schneier.com/blog/archives/2017/08/confusing_self-.html">Schneier on Security</a>, <a href="https://arstechnica.com/cars/2017/09/hacking-street-signs-with-stickers-could-confuse-self-driving-cars/?amp=1">Ars Technica</a>, <a href="http://fortune.com/2017/09/02/researchers-show-how-simple-stickers-could-trick-self-driving-cars/">Fortune</a></i>
+                                <p>For answers to Frequently Asked Questions (FAQs), about this work, please refer to <a href="https://iotsecurity.eecs.umich.edu/#roadsigns">this webpage</a>. Please, direct all inquiries about this work to our team e-mail address <a href="mailto:roadsigns@umich.edu">roadsigns@umich.edu</a>. </p>
+
+            </li>
+          <br/>
+            <li class="list-group-item"><a href="https://www.usenix.org/system/files/conference/woot18/woot18-paper-eykholt.pdf"><b>Physical Adversarial Examples for Object Detectors</b></a><br/>
+        Kevin Eykholt, <b>Ivan Evtimov</b>, Earlence Fernandes, Bo Li, Amir Rahmati, Florian Tramer, Atul Prakash, Tadayoshi Kohno, Dawn Song <br/>
+        <b> 12th USENIX Workshop on Offensive Technologies (WOOT 2018), Baltimore, MD (arXiv:1712.08062) </b>, August 2018 <br/>
+        <i> <a href="http://bair.berkeley.edu/blog/2017/12/30/yolo-attack/">Berkeley Artificial Intelligence Research (BAIR) blog</a> </i>
+        </li> 
+        <br/>
+            <li class="list-group-item"> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3150530"><b>Is Tricking A Robot Hacking?</b></a> <br/>
+					Ryan Calo, <b>Ivan Evtimov</b>, Earlence Fernandes, Tadayoshi Kohno, David O'Hair <br/>
+					<b>Proceedings of WeRobot 2018, Stanford, CA</b>, April 2018 <br/>
+					<i>Press: <a href="https://qz.com/1240060/is-tricking-a-robot-the-same-thing-as-hacking-it/">Quartz</a>, <a href="https://boingboing.net/2018/03/27/danger-will-robinson.html">BoingBoing</a> </i>
+			</li>
+        </ul>
+    </div>
+  </div>
+
+  <div class="row" id="contact">
+    <div class="col-md-8 text-left col-md-offset-1"> 
+      <h3>Contact Information</h3>
+    </div>
+
+    <div class="col-md-3 text-left col-md-offset-1"> 
+      <h4> <span class="glyphicon glyphicon-briefcase"></span> Address </h2>
+       <address>
+        <strong> Ivan Evtimov </strong> <br>
+        Paul G. Allen School of Computer Science & Engineering <br>
+        185 Stevens Way <br>
+        Campus Box 352350 <br>
+        Seattle, WA 98195 <br>
+       </address> 
+    </div>
+
+    <div class="col-md-3 text-left"> 
+      <h4> <span class="glyphicon glyphicon-envelope"></span> E-mail </h2>
+       <address>
+        <strong>ie5 {at} cs {.} washington {.} edu</strong> <br>
+        <strong><a href="https://keybase.io/ivanevtimov5">PGP Key</a></strong>
+       </address> 
+    </div>
+
+    <div class="col-md-3 text-left"> 
+      <h4> <span class="glyphicon glyphicon-thumbs-up"></span> Social </h2>
+       <address>
+        <strong><a href="https://twitter.com/ivanevti">Twitter</a></strong> <br>
+         <strong><a href="https://github.com/evtimovi">GitHub</a></strong> <br>
+       </address> 
+    </div>
+  </div>
+
+  
+</div>
+
+
+
+</body>
+</html>
